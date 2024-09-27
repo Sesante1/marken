@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Poppins, sans-serif;
+}
+
+.login_header{
+    height: 50px;
+    margin-top: 8px;
+    /* margin-left: 40px; */
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 18px;
+        padding: 20px;
+        margin-right: 9px;
+        margin-top: 10px;
+        font-size: 16px;
+        opacity: 0.8;
+    }
+    
+    ul li a {
+        text-decoration: none;
+        color: black; 
+        padding: 5px 10px; 
+        border-radius: 5px; 
+        transition: background-color 0.3s ease, color 0.3s ease; 
+    }
+    
+    ul li a:hover {
+        background-color: rgb(64, 165, 120); 
+        color: white; 
+    }
+
+    }
+    .right-section {
+        flex-shrink: 0;
+    }
